@@ -17,9 +17,9 @@ except ModuleNotFoundError:
     exit()
 
 time.sleep(0.5)
-user = raw_input('[💀] Target Username/ID/Email >>?? ')
+user = raw_input('[JAM] Target Username/ID/Email >>?? ')
 time.sleep(0.8)
-wrdlstFileName = raw_input('\n[💀] Wordlist Type jam.txt >> ')
+wrdlstFileName = raw_input('\n[JAM] Wordlist Type jam.txt >> ')
 try:
     wordlist = open(wrdlstFileName, 'r')
 except FileNotFoundError:
