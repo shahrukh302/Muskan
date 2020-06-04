@@ -315,7 +315,6 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;32;40m[✺] Cloning\033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 	print "\n\033[1;97m        ❈     \033[1;97mTo Stop Process Press CTRL+Z \033[1;97m    ❈"
-	print "   \033[1;31;48m●══════════════════JAM══════════════════●"
 
 	jalan('       \033[1;97mMuskan Noor start cloning Wait...')
 	print  "  \033[1;36;48m ●══════════════════JAM══════════════════●" 
@@ -405,12 +404,13 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id) 
 	
-	print '\033[1;31;40m[✓] Process Has Been Completed\033[1;97m....'
-	print "\033[1;32;40m[+] Total OK/\033[1;97mCP \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;31;40m/\033[1;36;40m"+str(len(cekpoint))
-	print '\033[1;34;40m[+] CP File Has Been Saved : save/cp.txt'
 	print """
 \033[1;31;40m ●════════════════════════JAM════════════════════════●
            """
+	print '\033[1;31;40m[✓] Process Has Been Completed\033[1;97m....'
+	print "\033[1;32;40m[+] Total OK/\033[1;97mCP \033[1;97m: \033[1;97m"+str(len(oks))+"\033[1;31;40m/\033[1;36;40m"+str(len(cekpoint))
+	print '\033[1;34;40m[+] CP File Has Been Saved : save/cp.txt'
+	
 	raw_input("\n\033[1;97m[\033[1;97mExit\033[1;97m]")
 	super()
 
